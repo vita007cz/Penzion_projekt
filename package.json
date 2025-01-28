@@ -17,7 +17,6 @@
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
-    "prebuild": "rm -r ./dist",
     "build": "eleventy"
   },
   "dependencies": {
