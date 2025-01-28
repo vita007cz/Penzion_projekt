@@ -14,6 +14,7 @@
   "author": "Vítězslav Zigáček",
   "type": "git",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "eleventy --serve",
     "prebuild": "rm -r ./dist",
