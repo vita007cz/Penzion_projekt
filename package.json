@@ -1,0 +1,25 @@
+{
+  "name": "website-pension",
+  "version": "1.0.0",
+  "description": "UKOL NA ELEVENTY",
+  "homepage": "https://github.com/networkjarwy1/website-pension#readme",
+  "bugs": {
+    "url": "https://github.com/networkjarwy1/website-pension/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/networkjarwy1/website-pension.git"
+  },
+  "license": "ISC",
+  "author": "Vítězslav Zigáček",
+  "type": "git",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "prebuild": "rm -r ./dist",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy"
+  }
+}
